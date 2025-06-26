@@ -2,13 +2,13 @@
 """
 Created on Sat Jun 21 00:29:16 2025
 
-@author: 派渡明
+@author: Yiming
 """
 
 <!DOCTYPE html>
 <html>
 <head>
-  <title>PDF to PowerPoint with Gemini</title>
+  <title>PDF to PPT with Gemini</title>
   <style>
     body { font-family: Arial; margin: 50px; }
     form { max-width: 500px; margin: auto; }
@@ -16,7 +16,7 @@ Created on Sat Jun 21 00:29:16 2025
   </style>
 </head>
 <body>
-  <h2>Generate PowerPoint from Academic PDF</h2>
+  <h2>Generate Presentation in PPT from Academic Paper in PDF</h2>
   <form method="post" enctype="multipart/form-data">
     <label>Gemini API Key:</label>
     <input type="text" name="api_key" required placeholder="Enter Gemini API Key">
@@ -27,7 +27,7 @@ Created on Sat Jun 21 00:29:16 2025
     <label>Number of Slides:</label>
     <input type="number" name="num_slides" min="1" max="10" value="5" required>
 
-    <button type="submit">Generate PPTX</button>
+    <button type="submit">Generate PPT</button>
   </form>
 </body>
 </html>
